@@ -105,3 +105,13 @@ footer a {
   display: block;
   margin-top: 20px;
 }
+
+.contact {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  color: #333;
+}
