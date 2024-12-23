@@ -1,3 +1,4 @@
+nt-style: italic;
 /* General Styles */
 body {
   font-family: Arial, sans-serif;
@@ -37,9 +38,10 @@ header nav a {
   align-items: center;
   justify-content: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
+  border-radius: 10% #FF0000;
   padding: 40px;
-  background-color: #fff;
+  background-color: paleturquoise;
+  color : forestgreen;
   max-width: 600px;
   margin: 0 auto;
 }
@@ -48,7 +50,7 @@ header nav a {
   width: 200px;
   height: 200px;
   object-fit: cover;
-  border-radius: 10%;
+  border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -195,4 +197,4 @@ header {
 .footer span {
   font-weight: bold;
   font-style: italic;
-}
+  }}
