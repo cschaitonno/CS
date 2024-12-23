@@ -115,3 +115,84 @@ footer a {
   font-size: 2rem;
   color: #333;
 }
+/* General Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+/* Header Navigation Bar */
+header {
+  background-color: #4caf50;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.but a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+/* General Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+/* Header Navigation Bar */
+header {
+  background-color: #4caf50;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.but a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+/* About Me Container */
+.about-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); /* Improved shadow */
+  border-radius: 10px;
+  text-align: center;
+}
+
+.about-container h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-container p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333333;
+}
+
+/* Footer Text */
+.footer {
+  margin-top: 30px;
+  font-size: 18px;
+  font-family: "Georgia", serif; /* Stylish font for footer */
+  color: #555555;
+  text-align: center;
+}
+
+.footer span {
+  font-weight: bold;
+  font-style: italic;
+}
