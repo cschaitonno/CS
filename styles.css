@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #3E5879;
+  color: #ffffff;
+}
+
+header {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: black;
+  padding: 15px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow : 0px 4px 6px rgba(0,0,0,3)
+}
+
+header nav .marquee p {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+header nav .marquee em {
+  color: skyblue;
+}
+
+.container {
+  text-align: center;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #3E5879;
+  color: #000000;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 5%;
+  object-fit: cover;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.profile-text h1 {
+  margin: 0;
+  font-size: 2.4rem;
+}
+
+.profile-text p {
+  margin: 0;
+  padding-left : 10px;
+  padding-top : 20px;
+  font-size: 1.3rem;
+  text-transform : uppercase;
+  color: #F5004F;
+}
+
+.contact {
+  margin: 40px auto;
+  text-align: center;
+}
+
+.contact h2 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #ffffff;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+footer{
+    margin-top : 30px;
+    text-align : center;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    padding: 20px;
+    border-top-left-radius : 20px;
+    border-top-right-radius : 20px;
+    color : #ffffff;
+    box-shadow: 0 -4px 8px rgba(0,0,0,0.6);
+}
+footer .end a {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #ff6f61;
+  margin : 40px;
+  color: #ffffff;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  border : 2px solid;
+  border-color : black;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+footer .end a:hover {
+    background: #e0554f;;
+    transform : scale(1.5)
+}
+footer .credits {
+    margin-top : 30px;
+    font-size: 1rem;
+    font-weight: 300;
+    color : #dcdcdc;
+}
+/* About Stylings */
